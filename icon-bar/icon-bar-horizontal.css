@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.icon-bar {
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+
+.icon-bar a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 10px 0;
+    margin-left: 25px;
+}
+
+.icon-bar a:hover {
+    background-color: #1698a0;
+}
+
+.icon-bar a i {
+    font-size: 2.5rem;
+    color: #FFF;
+}
+
+.icon-bar a span {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    font-family: Arial;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 750px) {
+    .icon-bar {
+        height: 80px;
+        flex-direction: row;
+        background-color: cadetblue;
+    }
+
+    .icon-bar a {
+        justify-content: center;
+        padding: 0;
+        margin-left: 0;
+    }
+}
